@@ -1,4 +1,3 @@
-import React from "react";
 
 function Projects() {
   const projects = [
@@ -28,9 +27,9 @@ function Projects() {
     },
   ];
 
-  const getLogos = (tech) => {
+  const getLogos = (tech: string) => {
     return (
-      <span class="badge text-bg-light mx-1" key={tech}>
+      <span className="badge text-bg-light mx-1" key={tech}>
         {tech}
       </span>
     );

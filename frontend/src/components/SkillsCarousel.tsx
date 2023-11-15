@@ -1,4 +1,3 @@
-import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 
 function SkillsCarousel() {
@@ -12,6 +11,16 @@ function SkillsCarousel() {
         />
         <Carousel.Caption>
           <h3>JavaScript</h3>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          src="ts-logo.png"
+          alt="Typescript"
+          className="d-block m-auto ratio ratio-1x1 carouselWH"
+        />
+        <Carousel.Caption>
+          <h3>Typescript</h3>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -34,7 +43,7 @@ function SkillsCarousel() {
           <h3>Node</h3>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      {/* <Carousel.Item>
         <img
           src="expressjs-logo.svg"
           alt="Express"
@@ -43,7 +52,7 @@ function SkillsCarousel() {
         <Carousel.Caption>
           <h3>Express</h3>
         </Carousel.Caption>
-      </Carousel.Item>
+      </Carousel.Item> */}
       <Carousel.Item>
         <img
           src="html-logo.svg"
